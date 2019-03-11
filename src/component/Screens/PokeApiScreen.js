@@ -1,18 +1,18 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MenuButton from '../Navigation/MenuButton';
-import PokedexComponent from "../Pokedex/PokedexComponent";
-import {HeaderView} from "../Header/HeaderView";
+import {PokeApiHeaderView} from "../Header/PokeApiHeaderView";
+import MonsterComponent from "../Monster/MonsterComponent";
 
 class PokeApiScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <HeaderView />
+        <PokeApiHeaderView />
         <MenuButton navigation={this.props.navigation} />
         <Text style={styles.text}>Look Up Pokémon</Text>
         <View>
-          <PokedexComponent />
+          <MonsterComponent monsterBrand={'Pokémon'} apiName={'Pokédex'}/>
         </View>
       </View>
     );

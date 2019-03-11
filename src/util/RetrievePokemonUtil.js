@@ -1,14 +1,28 @@
 import React from "react";
-import {isNotEmpty} from "./ServiceUtils";
+import {capitalizeFirstLetter, isNotEmpty} from "./ServiceUtils";
+
+export function retrievePokemonCollection(monsters){
+
+    let monsterCollection = [];
+    if(isNotEmpty(monsters)){
+        monsters.map( (monster,key) => {
+            monsterCollection.push(monster.name);
+        });
+    }
+
+    return monsterCollection;
+}
 
 export function retrievePokémonAbilities(abilities){
 
     let pokémonAbility = [];
 
-    if (abilities.length !== 0){
+    if (isNotEmpty(abilities)){
         abilities.map(ability => {
+            ability.ability.name = capitalizeFirstLetter(ability.ability.name);
             pokémonAbility.push(ability.ability)
         });
+
         return pokémonAbility;
     }
 }
@@ -17,8 +31,9 @@ export function retrievePokémonTypes(types){
 
     let pokémonTypes = [];
 
-    if (types.length !== 0){
+    if (isNotEmpty(types)){
         types.map(type => {
+            type.type.name = capitalizeFirstLetter(type.type.name);
             pokémonTypes.push(type.type)
         });
     }
@@ -27,12 +42,8 @@ export function retrievePokémonTypes(types){
 
 export function retrievePokémonImage(images) {
 
-    if (images.length !== 0) {
+    if (isNotEmpty(images)) {
         return images.front_default;
     }
     return '';
-}
-
-export function hasPokémon(data){
-    return isNotEmpty(data);
 }

@@ -3,7 +3,7 @@ import { Platform, Dimensions } from 'react-native';
 import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 import PokeApiScreen from '../component/Screens/PokeApiScreen'
-import LinkScreen from '../component/Screens/LinkScreen';
+import YuGiOhScreen from '../component/Screens/YuGiOhScreen';
 import SettingsScreen from '../component/Screens/SettingsScreen';
 import MenuDrawer from '../component/Navigation/MenuDrawer';
 
@@ -20,8 +20,8 @@ const DrawerConfig = {
 
 const DrawerNavigator = createDrawerNavigator(
     {
+        YuGiOhScreen: { screen: YuGiOhScreen },
         PokeApiScreen: { screen: PokeApiScreen },
-        Links: { screen: LinkScreen },
         Settings: { screen: SettingsScreen}
     },
     DrawerConfig

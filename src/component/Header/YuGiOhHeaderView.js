@@ -1,16 +1,16 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export const HeaderView = (props) =>
-            <View style={styles.headerContainer}>
-                <Text style={styles.header}>PokéAPI</Text>
-            </View>;
+export const YuGiOhHeaderView = (props) =>
+    <View style={styles.headerContainer}>
+        <Text style={styles.header}>Yu-Gi-Oh API</Text>
+    </View>;
 
 const styles = StyleSheet.create({
     headerContainer:    {
         width: '100%',
         height: '20%',
-        backgroundColor: '#ef5350'
+        backgroundColor: '#C69A34'
     },
     header: {
         color: 'white',

@@ -7,17 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea72abd1-ed07-48de-9108-5fa9e6632d82" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header/HeaderView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Pokedex/PokedexView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Pokedex/PokemonView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/PokeApiConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/RetrievePokémonService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ServiceUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Monster/MonsterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/YuGiOhConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/RetrieveYuGiOhService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/RetrieveYuGiHoUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MonsterInfoView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MonsterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PokémonView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/YuGiOhView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/PokeApiHeaderView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokedexView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokemonView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Screens/LinkScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Screens/SettingsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/SettingsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/PokeApiConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/PokeApiConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RetrievePokémonService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RetrievePokémonService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ServiceUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ServiceUtils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +41,90 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/view/YuGiOhView.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="374">
+                    <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
+                    <folding>
+                      <element signature="e#0#26#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/Monster/MonsterComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/MonsterView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/MonsterInfoView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/PokémonView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Home</find>
       <find>HeaderView</find>
+      <find>pokémonabilities</find>
+      <find>console</find>
+      <find>Input</find>
+      <find>console.log</find>
+      <find>retrieveYuGiOhService</find>
+      <find>Sst</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/component/PokeLookUp/PokedexView.js" />
         <option value="$PROJECT_DIR$/src/service/RetrievePokemon.js" />
         <option value="$PROJECT_DIR$/src/component/config/PokeApiConfig.js" />
-        <option value="$PROJECT_DIR$/src/config/PokeApiConfig.js" />
         <option value="$PROJECT_DIR$/src/component/PokeLookUp/PokedexComponent.js" />
         <option value="$PROJECT_DIR$/src/service/RetrievePokemonService.js" />
         <option value="$PROJECT_DIR$/src/service/UtilService.js" />
@@ -62,21 +157,40 @@
         <option value="$PROJECT_DIR$/src/component/Screens/SettingsScreen.js" />
         <option value="$PROJECT_DIR$/src/component/Screens/PokeLookUpScreen.js" />
         <option value="$PROJECT_DIR$/src/component/Screens/LinkScreen.js" />
-        <option value="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" />
         <option value="$PROJECT_DIR$/src/component/Pokedex/PokemonView.js" />
-        <option value="$PROJECT_DIR$/src/service/RetrievePokémonService.js" />
-        <option value="$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" />
         <option value="$PROJECT_DIR$/src/component/Pokedex/PokedexView.js" />
-        <option value="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" />
         <option value="$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js" />
+        <option value="$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js" />
+        <option value="$PROJECT_DIR$/src/component/YuGiOh/YuGiOhView.js" />
+        <option value="$PROJECT_DIR$/src/component/YuGiOh/YuGiOhInfoView.js" />
+        <option value="$PROJECT_DIR$/src/component/YuGiOh/YuGiOhComponent.js" />
+        <option value="$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js" />
+        <option value="$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" />
+        <option value="$PROJECT_DIR$/src/view/PokeApiViewNew.js" />
+        <option value="$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js" />
+        <option value="$PROJECT_DIR$/src/util/RetrieveYuGiHoUtil.js" />
+        <option value="$PROJECT_DIR$/src/service/RetrievePokémonService.js" />
+        <option value="$PROJECT_DIR$/src/config/PokeApiConfig.js" />
+        <option value="$PROJECT_DIR$/src/config/YuGiOhConfig.js" />
+        <option value="$PROJECT_DIR$/src/util/ServiceUtils.js" />
+        <option value="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" />
+        <option value="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" />
+        <option value="$PROJECT_DIR$/src/service/RetrieveYuGiOhService.js" />
+        <option value="$PROJECT_DIR$/src/view/YuGiOhView.js" />
+        <option value="$PROJECT_DIR$/src/view/MonsterInfoView.js" />
+        <option value="$PROJECT_DIR$/src/view/MonsterView.js" />
+        <option value="$PROJECT_DIR$/src/view/PokémonView.js" />
+        <option value="$PROJECT_DIR$/src/component/Monster/MonsterComponent.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="3" />
-    <option name="width" value="1873" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2164" />
+    <option name="width" value="1689" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,86 +201,106 @@
         <subPane>
           <expand>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="Monster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Pokedex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="Screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="drawerNavigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-nav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552188337154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552276688541" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../restaurant-website/restaurant-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BenHampton\Documents\Git\React-Native\android-mobile-pokemon-yugioh-magic-app\src\view" />
       <recent name="C:\Users\BenHampton\Documents\Git\React-Native\react-nav\src\util" />
       <recent name="C:\Users\BenHampton\Documents\Git\React-Native\react-nav\src" />
       <recent name="C:\Users\BenHampton\Documents\React-Native\react-nav\src\component" />
       <recent name="C:\Users\BenHampton\Documents\React-Native\react-nav\src\navigation" />
-      <recent name="C:\Users\BenHampton\Documents\React-Native\react-nav\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,16 +359,18 @@
       <workItem from="1552010751493" duration="18628000" />
       <workItem from="1552154733860" duration="7194000" />
       <workItem from="1552188851546" duration="12000" />
+      <workItem from="1552194849048" duration="23120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44326000" />
+    <option name="totallyTimeSpent" value="67446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -243,7 +379,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -251,7 +387,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26868907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3564464" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -273,6 +409,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/component/Screens/LinkScreen.js" />
+    <entry file="file://$PROJECT_DIR$/src/component/Header/HeaderView.js" />
     <entry file="file://$PROJECT_DIR$/src/component/Screens/PokeLookUpScreen.js" />
     <entry file="file://$PROJECT_DIR$/src/service/UtilService.js" />
     <entry file="file://$PROJECT_DIR$/src/service/RetrievePokemonService.js" />
@@ -295,46 +433,11 @@
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Navigation/MenuButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/PokeLookUp/PokedexView.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/sane/src/node_watcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="306" column="48" selection-start-line="306" selection-start-column="48" selection-end-line="306" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/PokeApiConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/Button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/ServiceUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -345,73 +448,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Header/PokeApiHeaderView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CardView.js" />
+    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokedexView.js" />
+    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" />
+    <entry file="file://$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokemonView.js" />
+    <entry file="file://$PROJECT_DIR$/src/util/RetrieveYuGiHoUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/primereact/components/autocomplete/AutoComplete.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Screens/LinkScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Header/HeaderView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokemonView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/RetrievePokémonService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokedexView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/RetrievePokemonUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js">
+    <entry file="file://$PROJECT_DIR$/src/component/Navigation/MenuButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/RetrievePokémonService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/YuGiOhConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/PokeApiConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ServiceUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/RetrievePokemonUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sane/src/node_watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="305" column="13" selection-start-line="305" selection-start-column="13" selection-end-line="305" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/RetrieveYuGiOhService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MonsterInfoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/YuGiOhView.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/PokémonView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MonsterView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Monster/MonsterComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "nav",
+    "monster": "nav",
     "slug": "react-nav",
     "privacy": "public",
     "sdkVersion": "32.0.0",

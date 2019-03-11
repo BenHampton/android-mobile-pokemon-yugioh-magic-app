@@ -1,15 +1,19 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MenuButton from '../Navigation/MenuButton';
-import {HeaderView} from "../Header/HeaderView";
+import {YuGiOhHeaderView} from "../Header/YuGiOhHeaderView";
+import MonsterComponent from "../Monster/MonsterComponent";
 
-class LinkScreen extends React.Component {
+class YuGiOhScreen extends React.Component {
   render() {
     return (
         <View style={styles.container}>
-          <HeaderView />
+          <YuGiOhHeaderView />
           <MenuButton navigation={this.props.navigation} />
-          <Text style={styles.text}>Link Screen</Text>
+          <Text style={styles.text}>Yu-Gi-Oh</Text>
+            <View>
+                <MonsterComponent monsterBrand={'Yu-Gi-Oh'} apiName={'YGOPRODeck API'}/>
+            </View>
         </View>
     );
   }
@@ -26,4 +30,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default LinkScreen;
+export default YuGiOhScreen;

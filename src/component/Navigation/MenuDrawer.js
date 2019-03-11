@@ -24,7 +24,7 @@ class MenuDrawer extends React.Component {
                <View style={styles.bottomLink}>
                    <Text>Bottom Half Of Menu Drawer</Text>
                    {this.navLink('PokeApiScreen', 'PokeApi')}
-                   {this.navLink('Links', 'Links')}
+                   {this.navLink('YuGiOhScreen', 'Yu-Gi-Oh API')}
                    {this.navLink('Settings', 'Settings')}
                </View>
             </View>
