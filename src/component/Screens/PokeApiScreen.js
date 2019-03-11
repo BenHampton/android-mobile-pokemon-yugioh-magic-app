@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MenuButton from '../Navigation/MenuButton';
-import {PokeApiHeaderView} from "../Header/PokeApiHeaderView";
+import {PokeApiHeaderView} from "../../view/Header/PokeApiHeaderView";
 import MonsterComponent from "../Monster/MonsterComponent";
 
 class PokeApiScreen extends React.Component {

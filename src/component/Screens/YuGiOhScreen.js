@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MenuButton from '../Navigation/MenuButton';
-import {YuGiOhHeaderView} from "../Header/YuGiOhHeaderView";
+import {YuGiOhHeaderView} from "../../view/Header/YuGiOhHeaderView";
 import MonsterComponent from "../Monster/MonsterComponent";
 
 class YuGiOhScreen extends React.Component {

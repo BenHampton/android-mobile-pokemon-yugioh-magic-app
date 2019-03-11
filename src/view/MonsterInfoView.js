@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import {YuGiOhView} from "./YuGiOhView";
-import {PokémonView} from "./PokémonView";
+import {YuGiOhView} from "./YuGiOh/YuGiOhView";
+import {PokémonView} from "./Pokemon/PokémonView";
 
 export const MonsterInfoView = props =>
     <View style={styles.container}>

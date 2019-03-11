@@ -6,34 +6,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea72abd1-ed07-48de-9108-5fa9e6632d82" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Monster/MonsterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/YuGiOhConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/RetrieveYuGiOhService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/RetrieveYuGiHoUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/MonsterInfoView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/MonsterView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PokémonView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/YuGiOhView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ea72abd1-ed07-48de-9108-5fa9e6632d82" name="Default" comment="added Yu-Gi-Oh API, refactored components, views and styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/PokeApiHeaderView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Navigation/MenuDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokedexComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokedexView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Pokedex/PokemonView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Screens/LinkScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/PokeApiHeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Header/PokeApiHeaderView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Header/YuGiOhHeaderView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/PokeApiScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Screens/SettingsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/SettingsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/PokeApiConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/PokeApiConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawerNavigation/DrawerNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/RetrievePokémonService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RetrievePokémonService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/RetrievePokemonUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ServiceUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ServiceUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Screens/YuGiOhScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MonsterInfoView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MonsterInfoView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/PokémonView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Pokemon/PokémonView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/YuGiOhView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/YuGiOh/YuGiOhView.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,35 +23,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/view/YuGiOhView.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
-                    <folding>
-                      <element signature="e#0#26#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Monster/MonsterComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+            <state relative-caret-position="149">
+              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -77,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/MonsterView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="154">
+              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
@@ -102,7 +62,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/PokémonView.js">
+        <entry file="file://$PROJECT_DIR$/src/view/Pokemon/PokémonView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
@@ -178,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/service/RetrieveYuGiOhService.js" />
         <option value="$PROJECT_DIR$/src/view/YuGiOhView.js" />
         <option value="$PROJECT_DIR$/src/view/MonsterInfoView.js" />
-        <option value="$PROJECT_DIR$/src/view/MonsterView.js" />
         <option value="$PROJECT_DIR$/src/view/PokémonView.js" />
         <option value="$PROJECT_DIR$/src/component/Monster/MonsterComponent.js" />
+        <option value="$PROJECT_DIR$/src/view/MonsterView.js" />
       </list>
     </option>
   </component>
@@ -214,13 +174,6 @@
               <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
@@ -273,6 +226,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-mobile-pokemon-yugioh-magic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="YuGiOh" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,7 +260,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552276688541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552277244329" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -296,11 +270,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BenHampton\Documents\Git\React-Native\android-mobile-pokemon-yugioh-magic-app\src\view\YuGiOh" />
+      <recent name="C:\Users\BenHampton\Documents\Git\React-Native\android-mobile-pokemon-yugioh-magic-app\src\view\Pokemon" />
       <recent name="C:\Users\BenHampton\Documents\Git\React-Native\android-mobile-pokemon-yugioh-magic-app\src\view" />
       <recent name="C:\Users\BenHampton\Documents\Git\React-Native\react-nav\src\util" />
       <recent name="C:\Users\BenHampton\Documents\Git\React-Native\react-nav\src" />
-      <recent name="C:\Users\BenHampton\Documents\React-Native\react-nav\src\component" />
-      <recent name="C:\Users\BenHampton\Documents\React-Native\react-nav\src\navigation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,12 +333,20 @@
       <workItem from="1552010751493" duration="18628000" />
       <workItem from="1552154733860" duration="7194000" />
       <workItem from="1552188851546" duration="12000" />
-      <workItem from="1552194849048" duration="23120000" />
+      <workItem from="1552194849048" duration="23436000" />
     </task>
+    <task id="LOCAL-00001" summary="added Yu-Gi-Oh API, refactored components, views and styles">
+      <created>1552277010458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552277010458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67446000" />
+    <option name="totallyTimeSpent" value="67762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -391,6 +373,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,6 +390,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Yu-Gi-Oh API, refactored components, views and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Yu-Gi-Oh API, refactored components, views and styles" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/component/Screens/LinkScreen.js" />
@@ -448,14 +435,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Header/PokeApiHeaderView.js">
+    <entry file="file://$PROJECT_DIR$/src/view/Header/PokeApiHeaderView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Header/YuGiOhHeaderView.js">
+    <entry file="file://$PROJECT_DIR$/src/view/Header/YuGiOhHeaderView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
@@ -533,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,9 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" selection-start-column="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,17 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/YuGiOhView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/PokémonView.js">
+    <entry file="file://$PROJECT_DIR$/src/view/Pokemon/PokémonView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
@@ -610,22 +578,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MonsterView.js">
+    <entry file="file://$PROJECT_DIR$/src/view/YuGiOh/YuGiOhView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Monster/MonsterComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+        <state relative-caret-position="149">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MonsterView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
